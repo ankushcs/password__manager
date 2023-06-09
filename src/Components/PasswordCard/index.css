@@ -1,0 +1,71 @@
+.password-card-container {
+    border: 1px solid #f8fafc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f8fafc;
+    padding: 10px;
+    width: 270px;
+    border-radius: 7px;
+}
+
+.password-logo-text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    gap: 10px;
+}
+
+.password-logo-container {
+    border: 1px solid #14b8a6;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #14b8a6;
+}
+
+.password-logo-container > p{
+    font-weight: bold;
+}
+
+.password-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.password-details-container > img {
+    width: 100px;
+    height: auto;
+}
+
+.password-delete-btn > img{
+    height: 20px;
+}
+
+.password-delete-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.delete-button-container:hover{
+    background-color: #b91c1c;
+}
+
+@media screen and (max-width: 426px) {
+    .password-card-container{
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px) {
+    .password-card-container{
+        width: 292px;
+    }
+}
